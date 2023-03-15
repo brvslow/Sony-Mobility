@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Sony - Mobility | Mettre en location</title>
+<link rel="icon" href="./images/sonynoir.jpg"/>
+<link rel="stylesheet" href="./css/style.css"/>
+<link rel="stylesheet" href="./css/nav.css"/>
+<link rel="stylesheet" href="./css/proposer-un-trajet.css"/>
+</head>
+<body>
+    <header>
+        <a href="accueil.html"><img src="./images/logosony.webp"></a>        
+        <nav>
+            <ul>
+                <li><a href="./accueil.html"><img id="accueilicon" src="./images/accueilicon.png"></a></li>
+                <li class="deroulant"> <a href=""><img id="headlogo" src="./images/headlogo.PNG"></a>
+                    <ul class="sous">
+                        <li> <a href="./creer-compte.html">Crée un compte</a></li>
+                        <li><a href="./connexion.html">Connexion</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"> <a href=""><img id="caricon" src="./images/caricon.png"></a>
+                    <ul class="sous">
+                        <li><a href="./louer-un-vehicule.html">Louer un véhicule</a></li>
+                        <li><a href="./mettre-en-location.html">Mettre mon véhicule en location</a></li>
+                        <li><a href="./proposer-un-trajet.html">Proposer un trajet</a></li>
+                        <li><a href="./trouver-un-trajet.html">Trouver un trajet</a></li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html"><img id="contacticon" src="./images/contacticon.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="./validation/mise-en-location-valide.html">
+            <h1>Louer mon véhicule</h1>
+            <div class="inputs">
+                <div class="depart">
+                    <label>Nom du loueur :</label>
+                    <input type="text" required placeholder="Nom">
+                </div>
+                <div class="arrivee">
+                    <label>Prénom du loueur :</label>
+                    <input type="text" required placeholder="Prénom">
+                </div>
+                <div class="depart">
+                    <label>Marque du véhicule :</label>
+                    <input type="Text" required placeholder="Marque">
+                </div>
+                <div class="depart">
+                    <label>Modèle du véhicule :</label>
+                    <input type="texte" required placeholder="Modèle">
+                </div>
+                <div class="depart">
+                    <label>Type de véhicule :</label>
+                    <select name="type" id="type" required>
+                        <option value=""></option>
+                        <option value="SUV">SUV</option>
+                        <option value="berline">Berline</option>
+                    </select>
+                </div>
+                <div class="depart">
+                    <label>Prix :</label>
+                    <input type="text" required placeholder="Prix">
+                </div>
+                <div align="center">
+                    <button type="submit">Valider</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p class="copyright">Copyright © Sony - Mobility 2022</p>
+            <p><a href="./confidentialite.html">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+</body>
+</html>

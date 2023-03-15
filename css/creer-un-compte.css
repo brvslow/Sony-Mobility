@@ -1,0 +1,96 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/mySonyHeaderWelcomeBg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    margin-top: 20px;
+    background-color: #212530;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+form h1{
+    color: #fff;
+    text-align: center;
+}
+
+form p{
+    color: #fff;
+}
+
+form label{
+    color: white;
+}
+
+form .social-media{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+}
+
+form .social-media p{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+}
+
+form p.choose-email{
+    text-align: center;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input, form .inputs select{
+    padding:15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    outline-color: #3393ff;
+    width: 150px;
+}
+
+form button{
+    cursor: pointer;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #3393ff;
+    outline: none;
+}
+
+.naissance-sexe{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.naissance, .sexe{
+    display: flex;
+    flex-direction: column;
+}
+
+.naissance input, .sexe select{
+    margin-top: 10px;
+}
+
+#date, #sexe{
+    width: 150px;
+}

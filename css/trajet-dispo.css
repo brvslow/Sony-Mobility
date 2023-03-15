@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/mySonyHeaderWelcomeBg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    color: white;
+    margin-top: 20px;
+    background-color: #212530;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+form .depart, form .arrivee, form .heure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+form button{
+    cursor: pointer;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #3393ff;
+    outline: none;
+}

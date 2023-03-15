@@ -1,0 +1,80 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/mySonyHeaderWelcomeBg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    margin-top: 20px;
+    background-color: #212530;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+form h1{
+    color: #fff;
+    text-align: center;
+}
+
+form p{
+    color: #fff;
+}
+
+form .social-media{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social-media p{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+form p.choose-email{
+    text-align: center;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type="email"], input[type="password"]{
+    padding:15px;
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    outline-color: #3393ff;
+}
+
+form p.inscription, form p.inscription a{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+form button{
+    cursor: pointer;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #3393ff;
+    outline: none;
+}

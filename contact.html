@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Sony - Mobility | Contact</title>
+<link rel="icon" href="./images/sonynoir.jpg"/>
+<link rel="stylesheet" href="./css/style.css"/>
+<link rel="stylesheet" href="./css/nav.css">
+<link rel="stylesheet" href="./css/contact.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <a href="accueil.html"><img src="./images/logosony.webp"></a>        
+    <nav>
+        <ul>
+            <li><a href="./accueil.html"><img id="accueilicon" src="./images/accueilicon.png"></a></li>
+            <li class="deroulant"> <a href=""><img id="headlogo" src="./images/headlogo.PNG"></a>
+                <ul class="sous">
+                    <li> <a href="./creer-compte.html">Crée un compte</a></li>
+                    <li><a href="./connexion.html">Connexion</a></li>
+                </ul>
+            </li>
+            <li class="deroulant"> <a href=""><img id="caricon" src="./images/caricon.png"></a>
+                <ul class="sous">
+                    <li><a href="./louer-un-vehicule.html">Louer un véhicule</a></li>
+                    <li><a href="./mettre-en-location.html">Mettre mon véhicule en location</a></li>
+                    <li><a href="./proposer-un-trajet.html">Proposer un trajet</a></li>
+                    <li><a href="./trouver-un-trajet.html">Trouver un trajet</a></li>
+                </ul>
+            </li>
+            <li><a href="./contact.html"><img id="contacticon" src="./images/contacticon.png"></a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="./validation/message-envoyé.html">
+      <h1>Contactez-nous</h1>
+      <div class="separation"></div>
+      <div class="corps-formulaire">
+        <div class="gauche">
+          <div class="groupe">
+            <label>Votre Prénom</label>
+            <input type="text" required/>
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="groupe">
+            <label>Adresse e-mail</label>
+            <input type="text" required/>
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="groupe">
+            <label>Numéro téléphone</label>
+            <input type="text" required/>
+            <i class="fas fa-mobile"></i>
+          </div>
+        </div>
+
+        <div class="droite">
+          <div class="groupe">
+            <label>Message</label>
+            <textarea placeholder="Saisissez ici..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="pied-formulaire" align="center">
+        <button type="submit">Envoyer le message</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <div>
+        <p class="copyright">Copyright © Sony - Mobility 2022</p>
+        <p><a href="./confidentialite.html">Politique de confidentialité</a></p>
+    </div>
+  </footer>
+</body>
+</html>

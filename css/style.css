@@ -1,0 +1,53 @@
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+body > header{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+    height: 64px;
+}
+
+body > header > a > img{
+    align-items: left;
+    width: 100px;
+    margin-top: 22px;
+    margin-left: 170px;
+}
+
+body > header > a{
+    height: 60px;
+    width: 100px;
+}
+
+body > footer{
+    width: 100%;
+    background-color: black;
+}
+
+footer div{
+    padding: 10px;   
+}
+
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+
+footer > div > p > a{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}

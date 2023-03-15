@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Sony - Mobility | Creer un compte</title>
+<link rel="icon" href="./images/sonynoir.jpg"/>
+<link rel="stylesheet" href="./css/style.css"/>
+<link rel="stylesheet" href="./css/nav.css"/>
+<link rel="stylesheet" href="./css/creer-un-compte.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+    <header>
+        <a href="accueil.html"><img src="./images/logosony.webp"></a>        
+        <nav>
+            <ul>
+                <li><a href="./accueil.html"><img id="accueilicon" src="./images/accueilicon.png"></a></li>
+                <li class="deroulant"> <a href=""><img id="headlogo" src="./images/headlogo.PNG"></a>
+                    <ul class="sous">
+                        <li> <a href="./creer-compte.html">Crée un compte</a></li>
+                        <li><a href="./connexion.html">Connexion</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"> <a href=""><img id="caricon" src="./images/caricon.png"></a>
+                    <ul class="sous">
+                        <li><a href="./louer-un-vehicule.html">Louer un véhicule</a></li>
+                        <li><a href="./mettre-en-location.html">Mettre mon véhicule en location</a></li>
+                        <li><a href="./proposer-un-trajet.html">Proposer un trajet</a></li>
+                        <li><a href="./trouver-un-trajet.html">Trouver un trajet</a></li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html"><img id="contacticon" src="./images/contacticon.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="./validation/compte-crée.html">
+            <h1>Créer un compte</h1>
+            <div class="social-media">
+                <p><i class="fab fa-google"></i></p>
+                <p><i class="fab fa-facebook-f"></i></p>
+            </div>
+            <p class="choose-email">Ou utilisez votre adresse e-mail :</p>
+            <div class="inputs">
+                <div class="email">
+                    <input type="email" required placeholder="E-mail ">
+                    <input type="email" required placeholder="Confirmez votre e-mail">
+                </div>
+                <div class="name">
+                    <input type="text" id="prenom" required placeholder="Prénom">
+                    <input type="text" id="nom" required placeholder="Nom">
+                </div>
+                <div class="naissance-sexe">
+                    <div class="naissance">
+                        <label>Date de naissance</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="sexe">
+                        <label>Sexe</label>
+                        <select name="Sexe" id="Sexe" required>
+                            <option value=""></option>
+                            <option value="ne-souhaite-pas-repondre">Ne souhaite pas répondre</option>
+                            <option value="masculin">Masculin</option>
+                            <option value="feminin">Féminin</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mdp">
+                    <input type="password" required placeholder="Mot de passe">
+                    <input type="password" required placeholder="Confirmez votre mot de passe">
+                </div>
+                <div align="center">
+                    <button type="submit">Créer un compte</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p class="copyright">Copyright © Sony - Mobility 2022</p>
+            <p><a href="./confidentialite.html">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+</body>
+</html>
